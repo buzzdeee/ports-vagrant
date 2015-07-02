@@ -21,27 +21,30 @@ BUILD_DEPENDS +=	${RUN_DEPENDS}
 RUN_DEPENDS +=	archivers/libarchive \
 		converters/ruby-multi_json \
 		devel/ruby-bundler \
+		devel/ruby-childprocess \
 		devel/ruby-diff-lcs \
+		devel/ruby-erubis \
 		devel/ruby-ffi \
+		devel/ruby-hashicorp-checkpoint \
 		devel/ruby-i18n \
 		devel/ruby-log4r \
-		devel/ruby-rspec/3/core \
-		devel/ruby-rspec/3/expectations \
-		devel/ruby-rspec/3/mocks \
-		devel/ruby-rspec/3/rspec \
 		devel/ruby-safe_yaml \
 		devel/ruby-thor \
+		devel/ruby-timers \
 		devel/ruby-uuidtools \
+		devel/ruby-wdm \
 		mail/ruby-mime-types \
 		net/ruby-net-scp \
 		net/ruby-net-sftp \
 		net/ruby-net-ssh \
 		security/ruby-akami \
+		sysutils/ruby-winrm \
 		textproc/ruby-builder \
 		textproc/ruby-gyoku \
 		textproc/ruby-nokogiri \
 		textproc/ruby-nori \
 		www/ruby-addressable \
+		www/ruby-http-cookie \
 		www/ruby-httpclient \
 		www/ruby-httpi \
 		www/ruby-ntlm \
