@@ -21,13 +21,16 @@ BUILD_DEPENDS +=	${RUN_DEPENDS}
 RUN_DEPENDS +=	archivers/libarchive \
 		converters/ruby-multi_json \
 		devel/ruby-bundler \
+		devel/ruby-celluloid \
 		devel/ruby-childprocess \
 		devel/ruby-diff-lcs \
 		devel/ruby-erubis \
-		devel/ruby-ffi \
 		devel/ruby-hashicorp-checkpoint \
 		devel/ruby-i18n \
+		devel/ruby-listen \
+		devel/ruby-little-plugger \
 		devel/ruby-log4r \
+		devel/ruby-rb-kqueue \
 		devel/ruby-safe_yaml \
 		devel/ruby-thor \
 		devel/ruby-timers \
@@ -44,11 +47,11 @@ RUN_DEPENDS +=	archivers/libarchive \
 		textproc/ruby-nokogiri \
 		textproc/ruby-nori \
 		www/ruby-addressable \
-		www/ruby-http-cookie \
 		www/ruby-httpclient \
 		www/ruby-httpi \
 		www/ruby-ntlm \
 		www/ruby-rack \
+		www/ruby-rest-client \
 		www/ruby-savon \
 		www/ruby-wasabi
 		
